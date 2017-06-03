@@ -1,0 +1,2 @@
+#! /bin/bash
+javadoc -author -link https://docs.oracle.com/javase/8/docs/api/ -private -sourcepath "src" -classpath ../java-advanced-2017-new/artifacts/ImplementorTest.jar:../java-advanced-2017-new/lib/junit-4.11.jar -d javadoc ru.ifmo.ctddev.titova.implementor ../java-advanced-2017-new/java/info/kgeorgiy/java/advanced/implementor/ImplerException.java ../java-advanced-2017-new/java/info/kgeorgiy/java/advanced/implementor/Impler.java ../java-advanced-2017-new/java/info/kgeorgiy/java/advanced/implementor/JarImpler.java
